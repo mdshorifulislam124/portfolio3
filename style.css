@@ -101,3 +101,128 @@ body {
 
 
 /* main camera section start */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-title {
+    font-size: 45px;
+    font-weight: 800;
+    color: #3a3a3a;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.hero-description {
+    font-size: 16px;
+    color: #3a3a3a;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 450px;
+}
+
+/* Prebook button */
+.btn-prebook {
+    margin-top: 25px; /* এই লাইনটি আপনার পছন্দমতো গ্যাপ তৈরি করবে */
+    /* বাকি কোড আগের মতোই থাকবে... */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E02C6D;
+    color: #ffffff;
+    padding: 16px 40px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn-probook:hover {
+    background-color: #c0225b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(224, 44, 109, 0.3);
+}
+
+/* অ্যারো চিহ্নের স্টাইল */
+.arrow {
+    margin-left: 10px; /* লেখা থেকে একটু দূরে */
+    font-size: 20px; /* অ্যারো একটু বড় করা হয়েছে */
+
+}
+
+btn-probook .arrow {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+/* Hero image side */
+.hero-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    
+}
+
+.image-bg-circle {
+    background: #f1f1f1;
+    border-radius: 50%;
+    width: 440px;
+    height: 440px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+    z-index: -1;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    transform: rotate(-5deg);
+}
+
+/* Responsive for Mobile Devices */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse; /* Mobile e sobi age dekhabe */
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .hero-title {
+        font-size: 32px;
+        margin-top: 30px;
+    }
+
+    .hero-description {
+        margin-bottom: 30px;
+    }
+
+    .image-bg-circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .hero-img {
+        max-width: 250px;
+    }
+
+    .btn-prebook {
+        padding: 14px 32px; /* মোবাইলে একটু ছোট হবে */
+        font-size: 15px;
+    }
+}
