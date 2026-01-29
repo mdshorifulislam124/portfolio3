@@ -294,6 +294,65 @@ btn-probook .arrow {
         filter: grayscale(0%);
     }
 
-    
+}
 
+
+.cardbar {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.cardbar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.1);
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+}
+
+.card-price{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.card-rating {
+    color: orange;
+    font-size: 14px;
+}
+
+.card-description {
+    font-size: 13px;
+    color: gray;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
 }
