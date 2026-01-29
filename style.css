@@ -270,16 +270,30 @@ btn-probook .arrow {
 
 @media (max-width: 768px) {
     .logobar {
-        display: flex;
-        flex-wrap: wrap;
-        justify-self: center;
-        gap: 10px;
-        box-shadow: none;
+        margin-top: 20px;
+        padding: 20px 0;
     }
 
-    .logos img{
-        flex: 0 0 22%;
-        text-align: center;
+    .logocontainer{
+        margin: 20px;
+        padding: 25px 15px;
+        box-shadow: none;
+        border: 1px solid #eee;
+        border-radius: 8px;
+
     }
+
+    .logos{
+        justify-content: center;
+        gap: 25px 20px;
+    }
+
+    .logos img {
+        width: 60px;
+        opacity: 1;
+        filter: grayscale(0%);
+    }
+
+    
 
 }
