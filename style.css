@@ -111,7 +111,7 @@ body {
 }
 
 .hero-section {
-    padding: 60px 0;
+    /* padding: 60px 0; */
     overflow: hidden;
 }
 
@@ -189,7 +189,7 @@ btn-probook .arrow {
 }
 
 .hero-img {
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     max-width: 400px;
     transform: rotate(-5deg);
@@ -225,4 +225,29 @@ btn-probook .arrow {
         padding: 14px 32px; /* মোবাইলে একটু ছোট হবে */
         font-size: 15px;
     }
+}
+
+
+/* logobar section */
+
+.logobar {
+    display: flex;
+    padding: 14px 5px 14px 5px;
+    margin: 165px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px #dedada;
+}
+
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.logos img {
+    width: 70px;
+    height: auto;
 }
