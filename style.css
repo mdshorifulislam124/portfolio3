@@ -351,6 +351,16 @@ btn-probook .arrow {
     box-shadow: 0 6px 20px rgba(0,0,0,0.2);
 }
 
+.seemore {
+    font-size: 20px;
+    text-align: right;
+    margin: 10px;
+    padding-top: 20px;
+    padding-right: 15px;
+    color: orange;
+    cursor: pointer;
+
+}
 @media (max-width: 768px) {
     .cards {
         grid-template-columns: 1fr;
