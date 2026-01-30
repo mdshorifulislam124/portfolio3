@@ -366,3 +366,62 @@ btn-probook .arrow {
         grid-template-columns: 1fr;
     }
 }
+
+/* featured section  */
+
+.featured-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.featureds {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featured-img{
+    flex: 1;
+    max-width: 500px;
+}
+
+.featured-text {
+    
+    flex: 1;
+    
+}
+
+.featured-text p {
+    padding-top: 15px;
+    text-align: justify;
+    max-width: 450px;
+    margin: 0;
+}
+
+@media ( max-width: 768px){
+    .featureds {
+        flex-direction: column-reverse; 
+        gap: 20px;
+        padding: 15px;
+        overflow: hidden;
+    }
+
+    .featured-text{
+        padding-left: 0;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .featured-img,
+    .featured-text{
+        flex: unset;
+        max-width: 100%;
+    }
+    .featured-text p {
+        text-align: center;
+    }
+}
