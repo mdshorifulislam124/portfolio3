@@ -423,12 +423,16 @@ btn-probook .arrow {
         text-align: center;
     }
 
-    /* .featured-img,
+    .featured-img,
     .featured-text{
         flex: unset;
         max-width: 100%;
-    } */
+    }
     .featured-text p {
         text-align: center;
+    }
+
+    .featured-img img {
+        max-width: 100%;
     }
 }
