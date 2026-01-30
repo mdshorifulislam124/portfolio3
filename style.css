@@ -436,3 +436,71 @@ btn-probook .arrow {
         max-width: 100%;
     }
 }
+
+.footer {
+  background: #0A0826;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 30px 0 0 0;
+}
+
+.footer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #ddd;
+}
+
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  color: white;
+}
+
+.social-icons a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.social-icons img {
+  width: 18px;
+}
+
+/* Hover effect */
+.social-icons a:hover {
+  background: #6a5cff;
+  transform: translateY(-3px);
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .footer h2 {
+    font-size: 20px;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+  }
+
+  .social-icons img {
+    width: 16px;
+  }
+}
