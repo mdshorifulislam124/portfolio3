@@ -389,6 +389,13 @@ btn-probook .arrow {
     max-width: 500px;
 }
 
+.featured-img img{
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .featured-text {
     
     flex: 1;
